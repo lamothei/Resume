@@ -1,11 +1,12 @@
 import React from 'react'
+import image from '../img/selfPortrait.jpg'
 
 function Sidebar() {
   return (
     <div className="flex flex-col w-64 h-screen py-8 bg-white border-r dark:bg-gray-900 dark:border-gray-700">
 
     <div className="flex flex-col items-center mt-6 -mx-2">
-        <img className="object-cover w-24 h-24 mx-2 rounded-full" src="https://scontent-ord5-1.xx.fbcdn.net/v/t1.6435-9/42158424_10212977246242168_6828741672696807424_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=IPHK_396PiUAX-eHfi6&_nc_ht=scontent-ord5-1.xx&oh=00_AT8fYe5sA8nc9vmY_o8PeolPcoaz6Z8MvAwuZKClAUPYdQ&oe=6374D1EC" alt="avatar" />
+        <img className="object-cover w-24 h-24 mx-2 rounded-full" src={image} alt="avatar" />
         <h4 className="mx-2 mt-2 font-medium text-gray-800 dark:text-gray-200 hover:underline">Ian Lamothe</h4>
         <p className="mx-2 mt-1 text-sm font-medium text-gray-600 dark:text-gray-400 hover:underline">lamothei@hotmail.com</p>
     </div>
