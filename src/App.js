@@ -1,4 +1,3 @@
-import './App.css';
 import HomeScreen from './components/HomeScreen';
 import Sidebar from './components/Sidebar';
 
