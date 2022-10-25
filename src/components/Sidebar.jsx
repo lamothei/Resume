@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '../img/selfPortrait.jpg'
-import { UilEstate, UilUser,UilBox, UilAt } from '@iconscout/react-unicons'
+import { UilEstate, UilUser,UilBox, UilAt  } from '@iconscout/react-unicons'
 
 function Sidebar() {
   return (
@@ -30,7 +30,7 @@ function Sidebar() {
             </a>
 
             <a className="flex items-center px-4 py-2 mt-5 text-gray-600 transition-colors duration-300 transform dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 dark:hover:text-gray-200 hover:text-gray-700" href="google.com">
-                <UilAt  className="w-5 h-5"/>
+               <UilAt  className="w-5 h-5"/>
                 <span className="mx-4 font-medium">Contact</span>
             </a>
         </nav>
