@@ -1,6 +1,7 @@
 import About from './components/About';
 import HomeScreen from './components/HomeScreen';
 import Sidebar from './components/Sidebar';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="flex-1 overflow-y-scroll">
           <HomeScreen />
           <About />
+          <Services />
         </div>
       </div>
     </div>
