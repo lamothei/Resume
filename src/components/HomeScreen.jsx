@@ -2,7 +2,7 @@ import React from 'react'
 
 function HomeScreen() {
   return (
-        <div className='bg-bridge h-full w-full bg-no-repeat bg-cover bg-center'>
+        <div id='home' className='bg-bridge h-full w-full bg-no-repeat bg-cover bg-center'>
             <div className='w-full h-full bg-opacity-50 bg-gray-700'>
                 <div className='flex items-center justify-center w-full h-full'>
                     <div className='flex flex-row justify-between'>

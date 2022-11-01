@@ -3,7 +3,7 @@ import image from '../img/selfPortrait.jpg';
 
 function About() {
   return (
-    <div className="h-full w-full bg-no-repeat bg-cover bg-center">
+    <div id='about' className="h-full w-full bg-no-repeat bg-cover bg-center">
       <div className="flex items-center justify-center w-full h-full">
         <div className="grid grid-rows-2 gap-2">
           <div className="row-span-2">
