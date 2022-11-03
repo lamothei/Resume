@@ -2,6 +2,8 @@ import About from './components/About';
 import HomeScreen from './components/HomeScreen';
 import Sidebar from './components/Sidebar';
 import Services from './components/Services';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <HomeScreen />
           <About />
           <Services />
+          <Portfolio />
+          <Contact />
         </div>
       </div>
     </div>
