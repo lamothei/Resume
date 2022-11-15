@@ -30,6 +30,9 @@ function About() {
                    to broaden and have greater understandings of different perspectives, on the field, and behind a desk. 
                 </p>
               </div>
+              <div class="flex justify-end mt-6">
+            <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Download Resume!</button>
+        </div>
             </div>
           </div>
         </div>

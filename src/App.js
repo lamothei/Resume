@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Services />
           <Portfolio />
           <Contact />
+          <Footer />
         </div>
       </div>
     </div>
