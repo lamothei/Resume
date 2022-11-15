@@ -1,5 +1,9 @@
 import React from 'react';
-import { UilBrushAlt, UilJavaScript } from '@iconscout/react-unicons';
+import {
+  UilBrushAlt,
+  UilJavaScript,
+  UilWrench,
+} from '@iconscout/react-unicons';
 
 function Services() {
   return (
@@ -18,7 +22,7 @@ function Services() {
               <UilJavaScript className="mb-8" />
               <div className="text-center">
                 <p className="text-xl text-gray-700 font-bold mb-2">
-                  Web development
+                  Web Development
                 </p>
                 <p className="text-base text-gray-400 font-normal">
                   With understandings in many web based developments through
@@ -31,19 +35,25 @@ function Services() {
               <UilBrushAlt className="mb-8" />
               <div className="text-center">
                 <p className="text-xl text-gray-700 font-bold mb-2">
-                  Visual design
+                  Visual Design
                 </p>
                 <p className="text-base text-gray-400 font-normal">
                   Through the self practices of the visual arts and programs,
-                  understanding concepts of design and development.
+                  understanding concepts of fundamental design and development.
                 </p>
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-              <div className="mb-8">Image</div>
+              <UilWrench className="mb-8" />
               <div className="text-center">
-                <p className="text-xl text-gray-700 font-bold mb-2">text1</p>
-                <p className="text-base text-gray-400 font-normal">text2</p>
+                <p className="text-xl text-gray-700 font-bold mb-2">
+                  IT Technician
+                </p>
+                <p className="text-base text-gray-400 font-normal">
+                  Experience in various POS systems, AMBs, specialized
+                  equipment, with a dash of server equipment. knowing the
+                  fundamentals is always handy.
+                </p>
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">

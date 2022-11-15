@@ -24,13 +24,10 @@ function About() {
                   developer and designer
                 </p>
                 <p className=''>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  congue pretium eleifend. Integer id tortor erat. Praesent
-                  scelerisque vulputate dolor ac suscipit. Ut ultrices, sapien
-                  id consectetur porttitor, urna enim vehicula sem, vitae
-                  molestie justo augue sed lacus. Mauris ligula leo, consectetur
-                  eu ullamcorper et, mattis ac lorem. Vestibulum quis odio sed
-                  lacus consectetur sollicitudin.
+                  Being a graduate in computer programing and analytics, and further studies out of school
+                   always continuing my programing education. Further working as a field service technician for POS devices,
+                   ABM machines, security systems, and camera setup. Mixing up physical and developer skills
+                   to broaden and have greater understandings of different perspectives, on the field, and behind a desk. 
                 </p>
               </div>
             </div>
