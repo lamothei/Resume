@@ -1,5 +1,4 @@
 import React from 'react';
-import image from '../img/selfPortrait.jpg';
 
 function About() {
   return (
@@ -13,7 +12,7 @@ function About() {
           <div className="grid gap-2 grid-cols-[auto_minmax(0,_1fr)]">
             <img
               className="w-32 md:w-64 lg:w-72 rounded-xl"
-              src={image}
+              src='img/selfPortrait.jpg'
               alt="avatar"
             />
             <div>
