@@ -3,6 +3,7 @@ import {
   UilBrushAlt,
   UilJavaScript,
   UilWrench,
+  UilScrew,
 } from '@iconscout/react-unicons';
 
 function Services() {
@@ -57,10 +58,10 @@ function Services() {
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-              <div className="mb-8">Image</div>
+              <UilScrew className="mb-8"/>
               <div className="text-center">
-                <p className="text-xl text-gray-700 font-bold mb-2">text1</p>
-                <p className="text-base text-gray-400 font-normal">text2</p>
+                <p className="text-xl text-gray-700 font-bold mb-2">Wood working</p>
+                <p className="text-base text-gray-400 font-normal">being self taught and trained in wood working, acquiring new tools and skills as I go along</p>
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
