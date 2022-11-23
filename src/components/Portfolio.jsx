@@ -67,7 +67,7 @@ function Portfolio() {
               <div class="w-full max-w-xs text-center">
                 <img
                   class="object-cover object-center w-full h-48 mx-auto rounded-lg"
-                  src="/img/WoodWorking.jpg"
+                  src="/img/woodWorking.jpg"
                   alt="avatar"
                 />
 

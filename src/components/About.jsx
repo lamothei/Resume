@@ -36,6 +36,11 @@ function About() {
                 </p>
               </div>
               <div class="flex justify-end mt-6">
+              <a href="https://github.com/lamothei" target="_blank" rel="noreferrer">
+                  <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600 mr-4">
+                    Check out my <span className='text-orange-500'>Github!</span>
+                  </button>
+                </a>
                 <a href="PDF/Ian_resume.pdf">
                   <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
                     Download Resume!
