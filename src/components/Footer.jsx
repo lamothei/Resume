@@ -1,5 +1,5 @@
 import React from 'react';
-import { UilLinkedin } from '@iconscout/react-unicons';
+import { UilLinkedin, UilGithub } from '@iconscout/react-unicons';
 
 function Footer() {
   return (
@@ -17,6 +17,14 @@ function Footer() {
           class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400"
         >
           <UilLinkedin />
+        </a>
+        <a
+          href="https://github.com/lamothei"
+          target="_blank"
+          rel="noreferrer"
+          class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-400"
+        >
+          <UilGithub />
         </a>
       </div>
     </footer>

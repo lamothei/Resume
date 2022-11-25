@@ -4,6 +4,8 @@ import {
   UilJavaScript,
   UilWrench,
   UilScrew,
+  UilDiceSix,
+  UilMegaphone,
 } from '@iconscout/react-unicons';
 
 function Services() {
@@ -58,24 +60,42 @@ function Services() {
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-              <UilScrew className="mb-8"/>
+              <UilScrew className="mb-8" />
               <div className="text-center">
-                <p className="text-xl text-gray-700 font-bold mb-2">Wood working</p>
-                <p className="text-base text-gray-400 font-normal">being self taught and trained in wood working, acquiring new tools and skills as I go along</p>
+                <p className="text-xl text-gray-700 font-bold mb-2">
+                  Wood Working
+                </p>
+                <p className="text-base text-gray-400 font-normal">
+                  being self taught and trained in wood working, acquiring new
+                  tools and skills as I go along.
+                </p>
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-              <div className="mb-8">Image</div>
+              <UilDiceSix className="mb-8" />
               <div className="text-center">
-                <p className="text-xl text-gray-700 font-bold mb-2">text1</p>
-                <p className="text-base text-gray-400 font-normal">text2</p>
+                <p className="text-xl text-gray-700 font-bold mb-2">
+                  Game Master
+                </p>
+                <p className="text-base text-gray-400 font-normal">
+                  Odd you might say? true, but involving research, organization,
+                  improvisation, social, and leadership skills to name a few,
+                  are a great part to being a table top GM.
+                </p>
               </div>
             </div>
             <div className="w-full bg-white rounded-lg p-12 flex flex-col justify-center items-center">
-              <div className="mb-8">Image</div>
+              <UilMegaphone className="mb-8" />
               <div className="text-center">
-                <p className="text-xl text-gray-700 font-bold mb-2">text1</p>
-                <p className="text-base text-gray-400 font-normal">text2</p>
+                <p className="text-xl text-gray-700 font-bold mb-2">
+                  Social skills
+                </p>
+                <p className="text-base text-gray-400 font-normal">
+                  Having great social skills was a huge deal in my previous work
+                  environments, needing to talking to business owners, home
+                  owners, and managers the like. keeping good notes, and never
+                  being afraid to ask questions.
+                </p>
               </div>
             </div>
           </div>
