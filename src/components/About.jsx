@@ -4,10 +4,10 @@ function About() {
   return (
     <div
       id="about"
-      className="bg-gray-200 h-full w-full"
+      className="bg-gray-200 lg:h-full lg:w-full py-5"
     >
-      <div className="flex items-center justify-center w-full h-full">
-        <div className="grid grid-rows-2 gap-2 w-1/2">
+      <div className="flex md:items-center justify-center lg:w-full lg:h-full">
+        <div className="grid grid-rows-2 gap-2 md:w-1/2 p-3">
           <div className="row-span-2">
             <div className="text-red-500">Biography</div>
             <div className="font-bold text-4xl">About me</div>

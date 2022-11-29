@@ -12,9 +12,9 @@ function Services() {
   return (
     <div
       id="services"
-      className="h-full w-full"
+      className="lg:h-full lg:w-full py-5"
     >
-      <div className="flex items-center justify-center w-full h-full">
+      <div className="flex md:items-center justify-center lg:w-full lg:h-full">
         <div className="grid grid-rows-2 gap-2 px-12">
           <div className="row-span-2">
             <div className="text-red-500">Services</div>
