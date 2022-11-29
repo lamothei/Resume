@@ -4,7 +4,7 @@ function Portfolio() {
   return (
     <div
       id="portfolio"
-      className="bg-gray-200 h-full w-full bg-no-repeat bg-cover bg-center"
+      className="bg-gray-200 h-full w-full"
     >
       <div className="flex items-center justify-center w-full h-full">
         <div className="grid grid-rows-2 gap-2 px-12">

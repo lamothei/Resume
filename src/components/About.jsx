@@ -4,7 +4,7 @@ function About() {
   return (
     <div
       id="about"
-      className="bg-gray-200 h-full w-full bg-no-repeat bg-cover bg-center"
+      className="bg-gray-200 h-full w-full"
     >
       <div className="flex items-center justify-center w-full h-full">
         <div className="grid grid-rows-2 gap-2 w-1/2">
@@ -14,7 +14,7 @@ function About() {
           </div>
           <div className="grid gap-2 grid-cols-[auto_minmax(0,_1fr)]">
             <img
-              className="w-32 md:w-64 lg:w-72 rounded-xl"
+              className="w-32 lg:w-52 rounded-xl"
               src="img/selfPortrait.jpg"
               alt="avatar"
             />

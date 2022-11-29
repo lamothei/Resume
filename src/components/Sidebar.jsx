@@ -3,9 +3,9 @@ import { UilEstate, UilUser,UilBox, UilAt, UilBag } from '@iconscout/react-unico
 
 function Sidebar() {
   return (
-    <div className="flex flex-col w-64 h-screen py-8 bg-white border-r dark:bg-gray-900 dark:border-gray-700">
+    <div className="xl:flex lg:flex md:flex flex-col w-64 h-screen py-8 bg-white border-r dark:bg-gray-900 dark:border-gray-700 hidden">
 
-    <div className="flex flex-col items-center mt-6 -mx-2">
+    <div className="lg:flex flex-col items-center mt-6 -mx-2 md:hidden">
         <img className="object-cover w-24 h-24 mx-2 rounded-full" src="/img/selfPortrait.jpg" alt="avatar" />
         <h4 className="mx-2 mt-2 font-medium text-gray-200 hover:underline">Ian Lamothe</h4>
         <p className="mx-2 mt-1 text-sm font-medium text-gray-400 hover:underline"><a href="mailto:jlmamothei@gmail.com">jlmamothei@gmail.com</a></p>

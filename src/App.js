@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App h-screen flex">
-      <div className="w-40 lg:w-64">
+      <div className="w-40 lg:w-64 xl:flex lg:flex md:flex hidden">
         <Sidebar />
       </div>
       <div class="flex-1 flex bg-gray-100 overflow-hidden">
