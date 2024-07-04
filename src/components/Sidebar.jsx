@@ -1,6 +1,7 @@
 import React from 'react'
 import { UilEstate, UilUser,UilBox, UilAt, UilBag } from '@iconscout/react-unicons'
 
+
 function Sidebar() {
   return (
     <div className="xl:flex lg:flex md:flex flex-col w-64 h-screen py-8 bg-white border-r dark:bg-gray-900 dark:border-gray-700 hidden">
@@ -13,7 +14,7 @@ function Sidebar() {
 
     <div className="flex flex-col justify-between flex-1 mt-6">
         <nav>
-            <a className="flex items-center px-4 py-2 bg-gray-800 text-gray-200" href="#home">
+            <a className="flex items-center px-4 py-2 mt-5 transition-colors duration-300 transform text-gray-400 hover:bg-gray-700 hover:text-gray-200" href="#home">
                 <UilEstate className="w-5 h-5"/>
                 <span className="mx-4 font-medium">Home</span>
             </a>

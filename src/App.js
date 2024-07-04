@@ -13,7 +13,7 @@ function App() {
         <Sidebar />
       </div>
       <div class="flex-1 flex bg-gray-100 overflow-hidden">
-        <div className="flex-1 overflow-y-scroll">
+        <div className="flex-1 overflow-y-scroll sm:scroll-smooth">
           <HomeScreen />
           <About />
           <Services />
